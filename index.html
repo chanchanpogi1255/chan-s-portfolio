@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        padding-top: 56px;
+      }
+      .full-height {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+      }
+      .progress-bar {
+        transition: width 1.5s ease-in-out;
+      }
+      .navbar {
+        transition: all 0.3s ease;
+      }
+      .navbar.scrolled {
+        background-color: #343a40 !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+    <script src="js/app.js"></script>
+  </head>
+
+  <body data-aos-easing="ease" data-aos-duration="900" data-aos-delay="0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img
+            src="pogimo.jpg"
+            alt="Christian Raymundo"
+            width="30"
+            height="30"
+            class="d-inline-block align-top rounded-circle me-2"
+          />
+          Christian Raymundo
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="content-wrapper">
+      <section id="home" class="full-height">
+        <div class="container">
+          <h1 class="heading-1 aos-init aos-animate" data-aos="fade-up">
+            WELCOME TO MY <br /><span class="text-brand">PORTFOLIO</span>
+          </h1>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="aos-init aos-animate"
+          >
+            As a student pursuing a Bachelor of Science in Computer Science, I
+            am deeply passionate about technology, programming, and continuously
+            enhancing my skills.
+          </p>
+          <div
+            class="cta aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <a href="#achievements" class="btn">Explore My Portfolio</a>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/chan.raymundo.3/"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/chanokig_/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.tiktok.com/@chan142004" target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+              <a href="https://wa.me/09457295833" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="full-height">
+        <div class="container">
+          <div class="intro">
+            <h6
+              class="heading-3 text-brand aos-init aos-animate"
+              data-aos="fade-up"
+            >
+              About me
+            </h6>
+            <h2
+              class="heading-2 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              I am Christian R. Raymundo
+            </h2>
+          </div>
+          <div class="grid three-col-grid">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              class="aos-init aos-animate"
+            >
+              <div class="card card-padding">
+                <div class="icon"><i class="las la-kiss-wink-heart"></i></div>
+                <h4 class="heading-3">My Age</h4>
+                <p>I am 21 years old</p>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="aos-init aos-animate"
+            >
+              <div class="card card-padding">
+                <div class="icon"><i class="las la-frown-open"></i></div>
+                <h4 class="heading-3">My Height</h4>
+                <p>I know its hard to believe but im actually 5'9.</p>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="aos-init aos-animate"
+            >
+              <div class="card card-padding">
+                <div class="icon"><i class="las la-dizzy"></i></div>
+                <h4 class="heading-3">My Hobbies</h4>
+                <p>
+                  私のしゅみはにほんごをべんきょうしています。"My hobby is
+                  studying japanese."
+                </p>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="aos-init aos-animate"
+            >
+              <div class="card card-padding">
+                <div class="icon"><i class="las la-heart"></i></div>
+                <h4 class="heading-3">My Birthday</h4>
+                <p>February 14, 2004.</p>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              class="aos-init aos-animate"
+            >
+              <div class="card card-padding">
+                <div class="icon"><i class="las la-chess-king"></i></div>
+                <h4 class="heading-3">My Sports</h4>
+                <p>Chess, Badminton, Volleyball, Basketball, Table Tennis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="py-5 bg-dark text-white">
+        <div class="container">
+          <div class="text-center mb-4" data-aos="fade-up">
+            <h6 class="text-warning">MY SKILLS</h6>
+            <h2>TECHNICAL ABILITIES</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <h3 class="mb-4 text-warning" data-aos="fade-up">TECH SKILLS</h3>
+
+              <div class="skill-box mb-3" data-aos="fade-right">
+                <div class="d-flex justify-content-between">
+                  <span>HTML</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning"
+                    data-aos="zoom-in-right"
+                    data-aos-delay="100"
+                    data-width="80%"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-box mb-3" data-aos="fade-right">
+                <div class="d-flex justify-content-between">
+                  <span>JAVA</span>
+                  <span>87%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning"
+                    data-aos="zoom-in-right"
+                    data-aos-delay="200"
+                    data-width="87%"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-box mb-3" data-aos="fade-right">
+                <div class="d-flex justify-content-between">
+                  <span>FIGMA</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning"
+                    data-aos="zoom-in-right"
+                    data-aos-delay="300"
+                    data-width="95%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="full-height">
+        <div class="container">
+          <div class="intro">
+            <h6 class="heading-3 text-brand">Project</h6>
+            <h2 class="heading-2">My succesful project</h2>
+          </div>
+          <div class="grid three-col-grid">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              class="aos-init aos-animate"
+            >
+              <div class="card">
+                <img src="figma2.png" alt="" />
+                <div class="card-padding">
+                  <h4 class="heading-3">Figma</h4>
+                  <p>My first Figma working Log in, Sign up and etc.</p>
+                  <a href="#">READ MORE...</a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="aos-init aos-animate"
+            >
+              <div class="card">
+                <img src="projectko.jpg" alt="" />
+                <div class="card-padding">
+                  <h4 class="heading-3">Sunètheia</h4>
+                  <p>My first Mobile App working Log in, Sign up and etc.</p>
+                  <a href="#">READ MORE...</a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              class="aos-init aos-animate"
+            >
+              <div class="card">
+                <img src="Sign up 5.png" alt="" />
+                <div class="card-padding">
+                  <h4 class="heading-3">Figma</h4>
+                  <p>My first Figma working Create an Account.</p>
+                  <a href="#">READ MORE...</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Homepage.png" alt="" />
+              <div class="card-padding">
+                <h4 class="heading-3">Figma</h4>
+                <p>
+                  This is a mobile shopping app my first working shopping mobile
+                  app.
+                </p>
+                <a href="#">READ MORE...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="full-height">
+        <div class="container">
+          <div class="intro">
+            <h6
+              class="heading-3 text-brand aos-init aos-animate"
+              data-aos="fade-up"
+            >
+              Achievements
+            </h6>
+          </div>
+          <div class="grid three-col-grid">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              class="aos-init aos-animate"
+            >
+              <div class="card card-padding">
+                <i class="las la-4x text-brand la-quote-left"></i>
+                <p>Systems Plus College Foundation - Graduated 2022-2023.</p>
+                <h4 class="heading-3 text-brand">Christian Raymundo</h4>
+                <div>SPCF - Main</div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="aos-init aos-animate"
+            >
+              <div class="card card-padding">
+                <i class="las la-4x text-brand la-quote-left"></i>
+                <p>
+                  Systems Plus College Foundation - Chess Champion / Undefeated.
+                </p>
+                <h4 class="heading-3 text-brand">Christian Raymundo</h4>
+                <div>SPCF - Main</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="full-height">
+        <div class="container">
+          <div class="intro">
+            <h6
+              class="heading-3 text-brand aos-init aos-animate"
+              data-aos="fade-up"
+            >
+              GET IN TOUCH AND LET'S CREATE SOMETHING AMAZING!
+            </h6>
+            <h2
+              class="heading-2 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              LET'S TALK NOW
+            </h2>
+          </div>
+          <form
+            action="#"
+            class="form aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <input
+              type="text"
+              required="required"
+              class="form-control"
+              placeholder="Enter name"
+            />
+            <input
+              type="email"
+              required="required"
+              class="form-control"
+              placeholder="Enter email"
+            />
+            <input
+              type="text"
+              required="required"
+              class="form-control"
+              placeholder="Enter subject"
+            />
+            <textarea
+              class="form-control"
+              required="required"
+              rows="6"
+              placeholder="Enter message"
+            ></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <p>
+            Designed with ❤️ By
+            <a href="https://www.instagram.com/chanokig_/"> Christian</a>
+          </p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/chan.raymundo.3/" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/chanokig_/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.tiktok.com/@chan142004" target="_blank"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a href="https://wa.me/09457295833" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        easing: "ease",
+        once: false,
+      });
+
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+          }
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const bars = document.querySelectorAll(".progress-bar");
+        bars.forEach((bar) => {
+          const target = bar.getAttribute("data-width");
+          setTimeout(() => {
+            bar.style.width = target;
+          }, 300);
+        });
+      });
+    </script>
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
